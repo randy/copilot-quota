@@ -14,4 +14,4 @@ To run the MenuBar app, include `rumps` in the above install like this:
 pip install workalendar rumps
 ```
 
-To persist the menu bar app, modify the paths to `python3` and the `copilot_quota.py` file in the `copilot.plist` file. Then copy/move the file to `~/Library/LaunchAgents/com.github.randy.copilot-quota.plist`. Finally, run `launchctl load ~/Library/LaunchAgents/com.github.randy.copilot-quota.plist`. Restart your computer or run `python3 copilot_quota.py &` from the repository's directory.
+To persist the menu bar app, modify the paths to `python3` and the `copilot_quota.py` file as well as the user info in the `copilot.plist` file. Then copy/move the file to `~/Library/LaunchAgents/com.github.randy.copilot-quota.plist`. Finally, run `launchctl load ~/Library/LaunchAgents/com.github.randy.copilot-quota.plist`. Restart your computer or run `python3 copilot_quota.py &` from the repository's directory.

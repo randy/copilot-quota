@@ -9,6 +9,13 @@
       <string>/Users/randy/projects/copilot-quota/copilot-env/bin/python3</string>
       <string>/Users/randy/projects/copilot-quota/copilot_quota.py</string>
   </array>
+  <key>UserName</key>
+  <string>randy</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+      <key>HOME</key>
+      <string>/Users/randy</string>
+  </dict>
   <key>StandardErrorPath</key>
   <string>/tmp/copilotquota.err</string>
   <key>StandardOutPath</key>
