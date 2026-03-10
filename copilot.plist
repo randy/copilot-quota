@@ -6,9 +6,13 @@
   <string>com.github.randy.copilot-quota</string>
   <key>ProgramArguments</key>
   <array>
-    <string>/usr/bin/python3</string>
-    <string>~/projects/copilot-quota/copilot_quota.py</string>
+      <string>/Users/randy/projects/copilot-quota/copilot-env/bin/python3</string>
+      <string>/Users/randy/projects/copilot-quota/copilot_quota.py</string>
   </array>
+  <key>StandardErrorPath</key>
+  <string>/tmp/copilotquota.err</string>
+  <key>StandardOutPath</key>
+  <string>/tmp/copilotquota.out</string>
   <key>RunAtLoad</key>
   <true/>
 </dict>
